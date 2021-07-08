@@ -1,0 +1,25 @@
+
+nav li{
+    display: flex;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+    margin: 0;
+}
+nav{
+    background-color: #b8e9fc;
+}
+nav li a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: black;
+    font-weight: 700;
+}
+nav a:hover{
+    background-color: #19aef8;
+    color: whitesmoke;
+}
+.dropdown{
+    display: none;
+}

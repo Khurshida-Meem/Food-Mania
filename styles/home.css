@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .sky-text {
+    color: #19aef8;
+  }
+  .light-color {
+    background-image: radial-gradient(#b8e9fc,white);
+  
+  }
+  .grey-text {
+    color: rgb(160, 157, 157);
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  
+  .flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .flexible-container img{
+    width: 100%;
+  }
+  .flexible-container div {
+    width: 50%;
+    padding: 5%;
+  }
+  #section-one-padding-left {
+    padding-top: 100px;
+    padding-left: 6%;
+  }
+  #follower{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px rgb(187, 185, 185);
+    border-radius: 20px;
+  }
+  #follower div{
+  
+    padding-left: 15%;
+  }
+  #follower h1{
+    font-weight: 700;
+  }
+  
+  .button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #b8e9fc, #19aef8);
+    padding: 20px 50px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .button:hover{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #19aef8, #b8e9fc);
+    padding: 20px 50px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .about-me-background {
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+  }
+  .about-me-background img {
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  .margin-div {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .flexible-container-for-three {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .flexible-container-for-three div {
+    width: 200%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 15px;
+    box-shadow: 10px 10px 40px rgb(187, 185, 185);
+    border-radius: 20px;
+  }
+  
+  .flexible-container-for-three img {
+    width: 100%;
+  }
+  
+  #section-five-header {
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+  
+  #Client-review h2 {
+    text-align: center;
+    color: rgb(160, 157, 157);
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-top: 2px grey;
+    border-left: 2px grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 40px rgb(187, 185, 185);
+    height: 20%;
+  }
+  
+  form {
+    font-size: 30px;
+    text-align: left;
+  }
+  footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  footer h2 {
+    padding-top: 20px;
+    color: #b8e9fc;
+  }
+  footer p {
+    color: rgb(160, 157, 157);
+  }
+  
