@@ -10,16 +10,42 @@ nav > ul{
 nav{
     background-color: #b8e9fc;
 }
-nav li a{
+nav > ul > li >  a{
     text-decoration: none;
     padding: 20px 10px;
     color: black;
     font-weight: 700;
 }
-nav a:hover{
+nav > ul > li >a:hover{
     background-color: #19aef8;
     color: whitesmoke;
 }
+nav > ul > li:hover > ul{
+    display: block;
+}
 .dropdown{
     display: none;
+    position: absolute;
+    margin-top: 50px;
+    background-color: #19aef8;
+}
+.dropdown li{
+    padding: 5px 10px;
+}
+
+.dropdown li:hover{
+    background-color: #b8e9fc;
+}
+.dropdown li a:hover{
+    color: darkblue;
+}
+.dropdown li a{
+    margin-top: 0;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 0;
+}
+
+nav > ul >li>ul{
+    padding: 0 0;
 }
